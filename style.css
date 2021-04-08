@@ -150,11 +150,18 @@
 			/*width:100%;*/
 			display: flex; /*tell to display flex*/
 			flex-wrap: wrap;/*wrap to next line if no more room on line*/
-			justify-content: space-around;
+			justify-content: flex-start;
 			padding:20px;
 			font-weight:600;
 			flex-direction: row;			
 		} 
+		
+		@media only screen and (max-width:1000px){
+			.container {
+				display: flex; /*tell to display flex*/
+				justify-content: center;
+			} 			
+		}
 			
 		#mainContent{
 			justify-content: space-evenly;
