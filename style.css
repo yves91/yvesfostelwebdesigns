@@ -150,7 +150,7 @@
 			/*width:100%;*/
 			display: flex; /*tell to display flex*/
 			flex-wrap: wrap;/*wrap to next line if no more room on line*/
-			justify-content: flex-start;
+			justify-content: space-between;
 			padding:20px;
 			font-weight:600;
 			flex-direction: row;			
