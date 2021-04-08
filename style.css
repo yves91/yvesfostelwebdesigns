@@ -261,9 +261,11 @@
 }
 
 	
-		#ftr{
-			font-weight:bold;
-			background-color:#00E4C5;
-			padding:20px;
-			color: #fff;
-		}
+#ftr{
+	font-weight:bold;
+	background-color:#00E4C5;
+	padding:20px;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+}
