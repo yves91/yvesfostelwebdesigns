@@ -1,0 +1,223 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    word-spacing: 180px;
+    padding-top: 5px;
+}
+
+.navUl{
+    text-align: center;
+    /* padding: 20px; */
+}
+
+.flexContainer{
+    background-color: #92DAFD;
+    background-image: linear-gradient(to right, #92DAFD, #009FE9);
+    color: #ffffff;
+    /* height: 100%; */
+    font-size: 20px;
+}
+
+.flexContact{
+    background-color: #92DAFD;
+    background-image: linear-gradient(to right, #92DAFD, #009FE9);
+    color: #ffffff;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    margin-top: 50px;
+}
+
+
+ul li{
+    display: inline-block;
+    justify-content: center;
+}
+
+/*@media only screen and (max-width: 700px) {
+    ul li{
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+    }
+}*/
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+h1{
+    font-size: 30px
+}
+
+    
+h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+
+.containerPortfolio{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    -webkit-animation-name: containerPortfolio;
+    -webkit-animation-duration: 2s;
+
+}
+
+@keyframes containerPortfolio{
+    from{
+        transform: translateX(-1600px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+
+@media only screen and (max-width: 850px){
+    .containerPortfolio {
+        /*display: flex;
+        justify-content: center;
+        margin-top: 50px;*/
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.myName{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* margin-top: 21px; */
+    /* margin-bottom: 150px; */
+    border: 1px solid white;
+    width: 20%;
+    margin: 115px auto;
+    padding: 50px;
+    text-align: center;
+   /* border-radius: 10px;*/
+    /* width: 50%; */
+    /* margin: 0 auto; */
+    -webkit-animation-name: myName;
+    -webkit-animation-duration: 2s;
+}
+
+@keyframes myName{
+    from{
+        transform: translateX(-800px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+
+.myBio {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 162px;
+    -webkit-animation-name: myBio;
+    -webkit-animation-duration: 2s;
+}
+
+@keyframes myBio {
+    from {opacity: 0;}
+    to {opacity: 1;}
+   }
+
+.project{
+    padding: 20px;
+    /*border: 1px solid #92DAFD;*/
+    padding-top: 54px;
+    margin: 10px;
+   /* border-radius: 10px;*/
+    width: 33%;
+    background-color: #009FE9;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 850px){
+    .project{
+        border: none;
+        margin: 0 auto;
+        width: 280px;
+        margin-bottom: 10px;
+    }
+}
+
+.projectCta{    
+    display: flex;    
+    justify-content: center;    
+    margin: 0 auto;    
+    background-color: #ffffff;    
+    border: none;    
+    padding: 10px;    
+    /*border-radius: 10px;*/ 
+    margin-top: 10px;    
+    font-family: 'Quicksand', sans-serif;    
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.projectCta > a{
+    color: #5d5d5d;
+}
+
+.flexContainer > #myPortfolio{
+    text-align: center;
+}
+
+img {
+    object-fit: contain;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  p{
+      /* padding: 10px; */
+      font-size: 20px;
+      display: flex;
+  }
+
+
+  .googleContactForm{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+  }
+
+/*@media only screen and (max-width: 1000px){
+    img {
+        /*display: flex;
+        justify-content: center;
+        margin-top: 50px;*/
+        width: 43%;
+    }
+}*/
+
