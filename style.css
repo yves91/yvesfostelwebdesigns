@@ -35,8 +35,8 @@ html {
 }
 
 .flexContainer{
-    background-color: #92DAFD;
-    background-image: linear-gradient(to right, #92DAFD, #009FE9);
+    background-color: #009FE9;
+    /*background-image: linear-gradient(to right, #92DAFD, #009FE9);*/
     color: #ffffff;
     /* height: 100%; */
     font-size: 20px;
@@ -45,7 +45,7 @@ html {
 @media only screen and (max-width: 850px){
     .flexContainer{
         background-color: #009FE9;
-/*background-image: linear-gradient(to right, #92DAFD, #009FE9);
+        /*background-image: linear-gradient(to right, #92DAFD, #009FE9);
         color: #ffffff;*/
         /* height: 100%; */
         /*font-size: 20px;*/
@@ -54,8 +54,8 @@ html {
 
 
 .flexContact{
-    background-color: #92DAFD;
-    background-image: linear-gradient(to right, #92DAFD, #009FE9);
+    background-color: #009FE9;
+    /*background-image: linear-gradient(to right, #92DAFD, #009FE9);*/
     color: #ffffff;
     height: 100%;
     padding-top: 50px;
