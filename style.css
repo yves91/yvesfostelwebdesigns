@@ -16,6 +16,17 @@ html {
     justify-content: center;
     word-spacing: 180px;
     padding-top: 5px;
+    -webkit-animation-name: navBar;
+    -webkit-animation-duration: 2s;
+}
+
+@keyframes navBar{
+    from{
+        transform: translateY(-1600px);
+    }
+    to{
+        transform: translateY(0px);
+    }
 }
 
 .navUl{
