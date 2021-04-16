@@ -24,26 +24,27 @@ html {
 }
 
 .flexContainer{
-    background-color: #009FE9;
-    /*background-image: linear-gradient(to right, #92DAFD, #009FE9);*/
+    background-color: #92DAFD;
+    background-image: linear-gradient(to right, #92DAFD, #009FE9);
     color: #ffffff;
     /* height: 100%; */
     font-size: 20px;
 }
 
-/*@media only screen and (max-width: 850px){
+@media only screen and (max-width: 850px){
     .flexContainer{
         background-color: #009FE9;
-        background-image: linear-gradient(to right, #92DAFD, #009FE9);
-        color: #ffffff;
-        height: 100%; 
-        font-size: 20px;
+/*background-image: linear-gradient(to right, #92DAFD, #009FE9);
+        color: #ffffff;*/
+        /* height: 100%; */
+        /*font-size: 20px;*/
     }
-}*/
+}
+
 
 .flexContact{
     background-color: #92DAFD;
-    /*background-image: linear-gradient(to right, #92DAFD, #009FE9);*/
+    background-image: linear-gradient(to right, #92DAFD, #009FE9);
     color: #ffffff;
     height: 100%;
     padding-top: 50px;
@@ -84,6 +85,14 @@ h2{
     margin-top: 50px;
     font-size: 30px;
     margin-bottom: 50px;
+    /* border: 1px solid white; */
+    margin: 0 auto;
+    padding: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* background-color: #ffffff; */
+    /* color: black; */
 }
 
 
