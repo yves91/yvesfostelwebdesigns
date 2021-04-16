@@ -12,9 +12,8 @@ html {
   }
 
 .navBar{
-    display: flex;
-    justify-content: center;
-    word-spacing: 180px;
+    /* display: flex; */
+    /* word-spacing: 121px; */
     padding-top: 5px;
     -webkit-animation-name: navBar;
     -webkit-animation-duration: 2s;
@@ -32,6 +31,8 @@ html {
 .navUl{
     text-align: center;
     /* padding: 20px; */
+    display: flex;
+    justify-content: space-around;
 }
 
 .flexContainer{
@@ -65,8 +66,8 @@ html {
 
 
 ul li{
-    display: inline-block;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 /*@media only screen and (max-width: 700px) {
